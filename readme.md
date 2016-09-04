@@ -2,19 +2,23 @@
 
 > Lightweight PHP API micro-framework.
 
-### Why another framework?
+### Requirements
 
-There are some PHP micro frameworks out there, `true`.
+You need to make sure your server meets the following requirements:
 
-However, the goal of this project is to provide a framework 
-with a specific purpose. This is, for creating simple and fast API's.
+- PHP >= 5.6.0
 
-Most of other frameworks tries to be a solution for every problem.
-While this may work it tends to produce bloated frameworks and 
-every (almost) of them strive to win the competition with some
-new & shiny features every version and bloating even more.
+### Installation
 
-This is not the case with vaccuum framework. 
+Vaccuum utilizes [Composer](https://getcomposer.org) to manage
+it's dependencies - make sure you have Composer installed on your
+development machine before proceeding.
+
+You can create new vaccuum project using Composer `create-project` command:
+
+```bash
+$ composer create-project --prefer-dist vaccuum/vaccuum app-name
+```
 
 ### License
 
