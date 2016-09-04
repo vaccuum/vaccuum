@@ -1,0 +1,33 @@
+{
+    "license": "MIT",
+    "name": "vaccuum/vaccuum",
+    "description": "Lightweight PHP API micro-framework.",
+    "type": "project",
+    "keywords": [
+        "vaccuum",
+        "lightweight",
+        "api",
+        "micro",
+        "framework"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Łepczyński",
+            "email": "lepczynski.s@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "vaccuum/contracts": "^0.1.0",
+        "vaccuum/config": "^0.1.0",
+        "vaccuum/container": "^0.1.0",
+        "vaccuum/foundation": "^0.1.0",
+        "vaccuum/router": "^0.1.0",
+        "vaccuum/dispatcher": "^0.1.0"
+    }
+}

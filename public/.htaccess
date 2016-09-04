@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    # Trailing slash redirect
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Pretty links redirect
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Authorization header presence
+    # ensures apache JWT compatibility
+    RewriteCond %{HTTP:Authorization} ^(.*)
+    RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+</IfModule>
