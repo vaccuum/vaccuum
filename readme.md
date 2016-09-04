@@ -4,7 +4,7 @@
 
 ### Stability
 
-This project is still in it's infancy and therefor is **not
+This project is still in it's infancy and therefore is **not
 considered to be production ready**.
 
 ### Requirements
