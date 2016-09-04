@@ -2,6 +2,11 @@
 
 > Lightweight PHP API micro-framework.
 
+### Stability
+
+This project is still in it's infancy and therefor is **not
+considered to be production ready**.
+
 ### Requirements
 
 You need to make sure your server meets the following requirements:

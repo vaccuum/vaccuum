@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fac0efaceaca44e7530c99569925f497",
+    "hash": "f40803b21bbace96d2194c029242e4fb",
     "content-hash": "63e1c911b4bf143a23ce3a1b8249ed7f",
     "packages": [
         {
@@ -395,16 +395,16 @@
         },
         {
             "name": "vaccuum/foundation",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vaccuum/foundation.git",
-                "reference": "ddbc8b40aad9c134aee1320b3f2cdfdf41ec8fdb"
+                "reference": "ec4d21ce1dd0218632a26e0db5812a2bc7921cec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaccuum/foundation/zipball/ddbc8b40aad9c134aee1320b3f2cdfdf41ec8fdb",
-                "reference": "ddbc8b40aad9c134aee1320b3f2cdfdf41ec8fdb",
+                "url": "https://api.github.com/repos/vaccuum/foundation/zipball/ec4d21ce1dd0218632a26e0db5812a2bc7921cec",
+                "reference": "ec4d21ce1dd0218632a26e0db5812a2bc7921cec",
                 "shasum": ""
             },
             "require": {
@@ -437,7 +437,7 @@
                 "framework",
                 "vaccuum"
             ],
-            "time": "2016-09-04 13:42:38"
+            "time": "2016-09-04 16:03:24"
         },
         {
             "name": "vaccuum/router",
